@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GrProject.Views.AntremanPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Frame HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="120" Padding="55,15" BackgroundColor="LightCoral" CornerRadius="30" Grid.Row="0">
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Sayfa Yükleniyor," TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Padding="5" FontAttributes="Bold" FontSize="18" />
+                    <Label Text="Lütfen Bekleyiniz..." TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Padding="5,5,5,0" FontAttributes="Bold" FontSize="18" />
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

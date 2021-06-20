@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GrProject.Views.MainPageDetail"
+             Title="Detail">
+    <ScrollView>
+        <StackLayout Padding="20,60,20,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Frame Grid.Row="0" Grid.ColumnSpan="2" CornerRadius="20" BackgroundColor="White" Margin="50,7,50,40" Padding="0,10,0,0" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="70" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0"  Source="prf.jpg" WidthRequest="45" HeightRequest="45" VerticalOptions="Center" HorizontalOptions="Center" Margin="0" />
+                        <Label Grid.Row="1"  x:Name="KullaniciAdi" x:FieldModifier="public" Text="Hoş Gelidiniz" BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="22" TextColor="DarkBlue" FontAttributes="Bold" Margin="0,-9,0,0" />
+                    </Grid>
+                </Frame>
+
+                <Frame Padding="0" Grid.Row="1" Grid.Column="0" Margin="12" CornerRadius="10" IsClippedToBounds="True" >
+                    <Button Text="ANTREMAN" BackgroundColor="AliceBlue" TextColor="Black" Clicked="OnAntremanClicked"/>
+                </Frame>
+
+                <Frame Padding="0" Grid.Row="1" Grid.Column="1" Margin="12" CornerRadius="10" >
+                    <Button Text="Beslenme" BackgroundColor="AliceBlue" TextColor="Black" Clicked="OnBeslenmeClicked" />
+                </Frame>
+
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

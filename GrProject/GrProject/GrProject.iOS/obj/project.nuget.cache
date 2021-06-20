@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "44Hw8BqxqtVi4HynaZlRChrlawSl/2rYKUDoushhUkpnlEf9ESl9jKP/G092Sd2hRJUymQl5UQu/+0GAx9KPkg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject.iOS\\GrProject.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GrProject.Views.TrainerView.MainPageMaster"
+             Title="Master">
+    <StackLayout>
+        <ListView x:Name="MenuItemsListView"
+              SeparatorVisibility="Default"
+              HasUnevenRows="true"
+              ItemsSource="{Binding MenuItems}"  >
+            <ListView.Header>
+                <StackLayout BackgroundColor="#03A9F4">
+                    <Frame CornerRadius="50" Padding="0" Margin="70,40" BackgroundColor="White">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="20"/>
+                            </Grid.RowDefinitions>
+                            <Image Grid.Row="1" Source="icon.jpg" HeightRequest="180" WidthRequest="180" Margin="-15" />
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="15,10" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.3*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding Icon}" WidthRequest="35" HeightRequest="35" VerticalOptions="Center" HorizontalOptions="Center" />
+                            <Label Grid.Column="1" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" Text="{Binding Title}" FontSize="24" TextColor="Black"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
