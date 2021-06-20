@@ -53,12 +53,12 @@ namespace GrProject.Views
                 resetCode = rnd.Next(100000, 999999).ToString();
                 MailMessage new_mail = new MailMessage();
                 SmtpClient istemci = new SmtpClient();
-                istemci.Credentials = new System.Net.NetworkCredential("cahmetkaan@hotmail.com", "A.k16411903");
+                istemci.Credentials = new System.Net.NetworkCredential("e-mail", "password");
                 istemci.Port = 587;
                 istemci.Host = "smtp.live.com";
                 istemci.EnableSsl = true;
                 new_mail.To.Add(mail);
-                new_mail.From = new MailAddress("cahmetkaan@hotmail.com");
+                new_mail.From = new MailAddress("e-mail");
                 new_mail.Subject = "Lodos Fitness App";
                 new_mail.Body = "Lodos Fitness Ekibinden Merhaba Parola Sıfırlama Kodunuz : " + resetCode;
                 istemci.Send(new_mail);

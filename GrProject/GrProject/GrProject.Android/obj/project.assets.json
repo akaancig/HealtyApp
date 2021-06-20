@@ -2106,20 +2106,20 @@
   },
   "packageFolders": {
     "C:\\Users\\Kaan\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject.Android\\GrProject.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject.Android\\GrProject.Android.csproj",
       "projectName": "GrProject.Android",
-      "projectPath": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject.Android\\GrProject.Android.csproj",
+      "projectPath": "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject.Android\\GrProject.Android.csproj",
       "packagesPath": "C:\\Users\\Kaan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject.Android\\obj\\",
+      "outputPath": "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Kaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2136,8 +2136,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject\\GrProject.csproj": {
-              "projectPath": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject\\GrProject.csproj"
+            "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject\\GrProject.csproj": {
+              "projectPath": "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject\\GrProject.csproj"
             }
           }
         }

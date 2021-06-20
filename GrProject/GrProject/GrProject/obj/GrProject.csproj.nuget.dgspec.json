@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject\\GrProject.csproj": {}
+    "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject\\GrProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject\\GrProject.csproj": {
+    "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject\\GrProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject\\GrProject.csproj",
+        "projectUniqueName": "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject\\GrProject.csproj",
         "projectName": "GrProject",
-        "projectPath": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject\\GrProject.csproj",
+        "projectPath": "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject\\GrProject.csproj",
         "packagesPath": "C:\\Users\\Kaan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject\\obj\\",
+        "outputPath": "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Kaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,7 +73,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CAyUdP/d3OVF5gG2QcP+6yI9SRlo15RVzIg7W80k+n4MHDuxoXCkX4psLjk76pcFSTejQyUEfpK7wsO7+ab1Jg==",
+  "dgSpecHash": "ZCke47PNa0GEK/UENjl4BGylhbgTqfht+WEA4vCFznJvN7va455Wy/CP/c4LpVuHERCvplzTErGy3eGch0MwWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaan\\source\\repos\\GrProject\\GrProject\\GrProject\\GrProject.csproj",
+  "projectFilePath": "C:\\Users\\Kaan\\Documents\\GitHub\\HealtyApp\\GrProject\\GrProject\\GrProject\\GrProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Kaan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -10,8 +10,8 @@
     "C:\\Users\\Kaan\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
     "C:\\Users\\Kaan\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
     "C:\\Users\\Kaan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\Kaan\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Kaan\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }
