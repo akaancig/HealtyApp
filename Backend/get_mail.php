@@ -1,0 +1,36 @@
+<?php
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+$secretToken = $_GET["secretToken"];
+$username = $_GET["username"];
+
+if($secretToken != 'A.t541541'){
+    die("Connection failed: secretTokenError ");
+}
+$sql_sorgu = "SELECT user_username, user_email FROM user_login";
+$result = mysqli_query($conn, $sql_sorgu);
+if (mysqli_num_rows($result) > 0) {
+    // output data of each row
+    while($row = mysqli_fetch_assoc($result)) {
+        if($username == $row["user_username"])
+        {
+            echo $row["user_email"];
+            die();
+        }
+    }
+} else {
+    echo "Hatalı kullanıcı adı.";
+    die();
+}
+$conn->close();
+
+echo "Hatalı kullanıcı adı.";
+die();
+?>
